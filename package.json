@@ -1,6 +1,6 @@
 {
   "name": "promise-every",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Test each value in an array with every and return a Promise",
   "main": "index.js",
   "scripts": {
