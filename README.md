@@ -21,10 +21,10 @@ Promise.resolve(['bin', 'baz', 123])
 ```
 
 ## Why?
-This module is basically equivalent to [`bluebird.every`][bluebird], but it's
-handy to have the one function you need instead of a kitchen sink. Modularity!
-Especially handy if you're serving to the browser and need to reduce your
-javascript bundle size.
+This module is basically equivalent to [`Array.every`][mdn]. It's packaged as a
+single module because it's handy to have the one function you need instead of a
+kitchen sink. Modularity! Especially handy if you're serving to the browser and
+need to reduce your javascript bundle size.
 
 Works great in the browser with
 [browserify](http://github.com/substack/node-browserify)!
@@ -50,4 +50,3 @@ Works great in the browser with
 
 [mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 [promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-[bluebird]: https://github.com/petkaantonov/bluebird/blob/master/API.md#everyfunction-everyper--object-options---promise
